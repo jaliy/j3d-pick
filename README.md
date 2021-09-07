@@ -7,11 +7,14 @@
 ## 效果预览地址
 - [3D物体选中和操作效果](https://jaliy.github.io/j3d-pick/)
 
+## 基础架构示意图
+![基础架构](assets/基础架构.png)
+
 ---
 ## 相关文档
 
 - [ThreeJS官网](https://threejs.org/)
 
-- [WebGL文档](https://developer.mozilla.org/zh-CN/docs/Web/API/WebGL_API)
+- [WebGL文档](https://www.khronos.org/webgl/)
 
 - [OpenGL](https://www.khronos.org/opengl/)

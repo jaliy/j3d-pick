@@ -1,13 +1,16 @@
 {
   "name": "j3d-pick",
   "version": "1.0.0",
-  "description": "",
+  "description": "在WebGL中实现3D物体的选中和操作",
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve --open",
     "build": "webpack"
   },
   "keywords": [
+    "threejs",
+    "3d",
+    "webgl",
     "jaliy"
   ],
   "author": "jaliy",
