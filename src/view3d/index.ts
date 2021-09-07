@@ -95,10 +95,9 @@ export class View3D extends ViewComponent {
         // an animation loop is required when either damping or auto-rotation are enabled
         this._controls.enableDamping = true;
         this._controls.dampingFactor = 0.05;
-        // this._controls.screenSpacePanning = false;
-        // this._controls.minDistance = 50;
-        // this._controls.maxDistance = 500;
-        // this._controls.maxPolarAngle = Math.PI / 2;
+        this._controls.minDistance = 50;
+        this._controls.maxDistance = 500;
+        this._controls.maxPolarAngle = Math.PI / 2;
     }
 
     private _initMesh(): void {
